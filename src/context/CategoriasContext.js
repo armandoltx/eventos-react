@@ -33,6 +33,7 @@ class CategoriasProvider extends Component {
 
   render() {
     return (
+      // Aunque la clase se llame CategoriasProvider, el provider es lo que tenemos aqui abajo
       <CategoriasContext.Provider
         value= {{
           categorias: this.state.categorias,
