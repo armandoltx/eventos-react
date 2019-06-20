@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
 import Header from './components/Header';
 import Formulario from './components/Formulario';
+import LstaEventos from './components/ListaEventos';
 
 import CategoriasProvider from './context/CategoriasContext';
 // en realidad importamos la clase, no el Provider en si.
 import EventosProvider from './context/EventosContext';
+import ListaEventos from './components/ListaEventos';
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
         <Header />
         <div className="uk-container">
           <Formulario />
+          <ListaEventos/>
         </div>
       </CategoriasProvider>
     </EventosProvider>

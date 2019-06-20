@@ -20,8 +20,8 @@ class Formulario extends Component {
     return (
       <EventosConsumer>
         {(value) => {
-          console.log("value");
-          console.log("=> ", value);
+          {/* console.log("value");
+          console.log("=> ", value); */}
           {/*Hay q tener un return en esta funcion y todo el form es el return */} 
           return (
             <form
