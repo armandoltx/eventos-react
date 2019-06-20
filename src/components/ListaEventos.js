@@ -12,7 +12,10 @@ const ListaEventos = () => {
           console.log(value);
           return (
             value.eventos.map((evento) => (
-              <Evento />
+              <Evento
+                key={evento.id}
+                evento={evento}
+              />
             ))
           )
 
